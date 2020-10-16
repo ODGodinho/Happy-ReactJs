@@ -1,0 +1,108 @@
+#page-map {
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+    display: flex;
+
+    aside {
+        width: 440px;
+        background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+        padding: 80px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h2 {
+            font-size: 40px;
+            font-weight: 800;
+            line-height: 42px;
+            margin-top: 64px;
+        }
+
+        p {
+            line-height: 28px;
+            margin-top: 28px;
+        }
+
+        footer {
+            display: flex;
+            flex-direction: column;
+
+            line-height: 24px;
+
+            strong {
+                font-weight: 800;
+            }
+
+        }
+    }
+
+    .create-orphanage {
+        position: absolute;
+        right: 40px;
+        bottom: 40px;
+        width: 64px;
+        height: 64px;
+        background-color: #15C3D6;
+
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transition: background-color 0.2;
+        -webkit-transition: background-color 0.2;
+        -moz-transition: background-color 0.2;
+        -ms-transition: background-color 0.2;
+        -o-transition: background-color 0.2;
+        z-index: 10;
+
+        &:hover {
+            background-color: #17D6EB;
+        }
+    }
+
+    .leaflet-container {
+        z-index: 5;
+    }
+
+    .map-popup {
+        .leaflet-popup-content-wrapper {
+            background-color: rgba($color: (#FFFFFF), $alpha: 0.85);
+        }
+
+        .leaflet-popup-tip-container {
+            display: none;
+        }
+
+        .leaflet-popup-content {
+            color: #0089A5;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 8px 12px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            a {
+                width: 40px;
+                height: 40px;
+                background-color: #15C3D6;
+                box-shadow: 17.2868px 27.6589px 41.4884px rgba(23, 142, 166, 0.16);
+                border-radius: 12px;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
