@@ -9,6 +9,9 @@ export default {
     },
 
     async show(request: Request, response: Response) {
+        // simulate sleep for loading
+        await new Promise(r => setTimeout(r, 1000));
+
         const { id } = request.params;
 
         const orphanage = await OrphanagesService.findOrFail(+id, ["images"]);
