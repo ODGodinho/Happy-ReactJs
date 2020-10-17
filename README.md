@@ -40,6 +40,8 @@
 - [React-Icons](https://react-icons.github.io/react-icons/)
 - [LeafletJs](https://leafletjs.com/)
 - [Typescript](https://www.typescriptlang.org/)
+- [Axios](https://github.com/axios/axios/)
+- [SweetAlert](https://sweetalert.js.org/)
 
 #### `Back-end`
 
