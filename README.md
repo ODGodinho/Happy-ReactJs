@@ -6,6 +6,9 @@
   <br>
 </h1>
 
+<img src="images/happy.png"
+     alt="Happy img"
+/>
 <h4 align="center">Desenvolvimento do NextLevelWeek 3.0 🚀!</h4>
 
 <p align="center">	
