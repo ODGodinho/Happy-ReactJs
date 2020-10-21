@@ -9,7 +9,6 @@ import { useRoute } from '@react-navigation/native';
 import { OrphanageInterface } from '../Interfaces/OrphanageRequest';
 import api from '../services/api';
 import LoadingPage from '../components/LoadingPage';
-import { or } from 'react-native-reanimated';
 // import LoadingPage from '../components/LoadingPage';
 
 interface OrphanageDetailsPageParams {
