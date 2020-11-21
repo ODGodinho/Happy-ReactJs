@@ -16,7 +16,7 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/ODGodinho/Happy-ReactJs">
 	
   <a href="https://www.linkedin.com/in/victor-alves-godinho-479647142/">
-    <img alt="Made by DanielObara" src="https://img.shields.io/badge/made%20by-ODGodinho-%2304D361">
+    <img alt="Made by ODG" src="https://img.shields.io/badge/made%20by-ODGodinho-%2304D361">
   </a>
   
   <a href="https://github.com/ODGodinho/Happy-ReactJs/commits/master">
